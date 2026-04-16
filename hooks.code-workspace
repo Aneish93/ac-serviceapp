@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../ACrepairwa/hooks"
+		},
+		{
+			"path": "../ACrepairwa/lib"
+		},
+		{
+			"path": "../ACrepairwa/public"
+		},
+		{
+			"path": "../ACrepairwa/styles"
+		},
+		{
+			"path": "../ACrepairwa/.db"
+		},
+		{
+			"path": "../ACrepairwa/app"
+		},
+		{
+			"path": "../ACrepairwa/components"
+		}
+	]
+}
