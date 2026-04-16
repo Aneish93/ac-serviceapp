@@ -7,6 +7,7 @@
       "name": "Aneish",
       "phone": "9345754072",
       "created_at": "2026-04-15T15:01:39.171Z"
+<<<<<<< HEAD
     },
     {
       "id": "0e3c3e1c86bb27675c80c132cd45b70a",
@@ -16,6 +17,8 @@
       "phone": "+919345754072",
       "address": "62 Saraswathi Nagar Main Road",
       "created_at": "2026-04-16T15:24:49.454Z"
+=======
+>>>>>>> d76b038337ba6a4d4bbfb647fb8302cdf03fe54a
     }
   ],
   "technicians": [
@@ -36,6 +39,7 @@
       "phone": "9874563210",
       "specialization": "AC repair",
       "created_at": "2026-04-15T15:15:32.526Z"
+<<<<<<< HEAD
     },
     {
       "id": "5eccb893e55211b69b23f4bde0d9ef9f",
@@ -54,6 +58,8 @@
       "phone": "9789358841",
       "specialization": "ac repair",
       "created_at": "2026-04-16T15:26:09.551Z"
+=======
+>>>>>>> d76b038337ba6a4d4bbfb647fb8302cdf03fe54a
     }
   ],
   "service_requests": [
@@ -68,6 +74,7 @@
       "assigned_tech_id": "166902083526d9907214f92e8d404a55"
     },
     {
+<<<<<<< HEAD
       "id": "84ba466398d5786ddc584169fd847d1d",
       "customer_id": "0e3c3e1c86bb27675c80c132cd45b70a",
       "problem_description": "problem is in ac",
@@ -76,6 +83,16 @@
       "status": "accepted",
       "created_at": "2026-04-16T15:25:29.585Z",
       "assigned_tech_id": "7d309e2029f1725c5480062b64cfe3dd"
+=======
+      "id": "ad8ce2adfef21e84888fa787e2b5de35",
+      "customer_id": "24ac07b5d56e154a5deecb419e17d1c1",
+      "problem_description": "Ac unit problem",
+      "preferred_date": "2026-04-16",
+      "preferred_time": "11:00",
+      "status": "completed",
+      "created_at": "2026-04-15T16:18:52.244Z",
+      "assigned_tech_id": "b0d88f9c0e4d9df125ae59aae60b0154"
+>>>>>>> d76b038337ba6a4d4bbfb647fb8302cdf03fe54a
     }
   ],
   "file_uploads": [],
@@ -103,6 +120,7 @@
       "sender_type": "technician",
       "encrypted_message": "{\"ciphertext\":\"zVJZSqzhpvOtKJwHHl5PPVzOqWSvy4hFJggm7wOZaYc5ECdgsO7c\",\"nonce\":\"PdhTmwbaJA/ezDJzt/vcenmx+dHNa7bP\"}",
       "created_at": "2026-04-15T15:16:13.204Z"
+<<<<<<< HEAD
     },
     {
       "id": "7d2f4218695826092a5f3026f4953f0b",
@@ -111,6 +129,8 @@
       "sender_type": "technician",
       "encrypted_message": "{\"ciphertext\":\"mdCTDXMy58jTgI2lpo3p6N+Cyw==\",\"nonce\":\"/EbPpE0jcF2LpDAKZHfOAQC/4a2P6bnE\"}",
       "created_at": "2026-04-16T15:26:33.808Z"
+=======
+>>>>>>> d76b038337ba6a4d4bbfb647fb8302cdf03fe54a
     }
   ],
   "notifications": [
@@ -135,11 +155,16 @@
       "created_at": "2026-04-15T15:06:56.438Z"
     },
     {
+<<<<<<< HEAD
       "id": "67fcd779b9e72505885bbb91ab56c02b",
+=======
+      "id": "8bdfcc346ae2663db88c9fed590a7cba",
+>>>>>>> d76b038337ba6a4d4bbfb647fb8302cdf03fe54a
       "user_id": "",
       "user_type": "technician",
       "title": "New Service Request",
       "message": "New AC service request from customer",
+<<<<<<< HEAD
       "request_id": "84ba466398d5786ddc584169fd847d1d",
       "read": false,
       "created_at": "2026-04-16T15:25:29.585Z"
@@ -153,6 +178,31 @@
       "request_id": "84ba466398d5786ddc584169fd847d1d",
       "read": false,
       "created_at": "2026-04-16T15:26:20.904Z"
+=======
+      "request_id": "ad8ce2adfef21e84888fa787e2b5de35",
+      "read": false,
+      "created_at": "2026-04-15T16:18:52.244Z"
+    },
+    {
+      "id": "d0c733950e40e16ecc1428cf10ce45c4",
+      "user_id": "24ac07b5d56e154a5deecb419e17d1c1",
+      "user_type": "customer",
+      "title": "Request Accepted",
+      "message": "Your AC service request has been accepted by the technician.",
+      "request_id": "ad8ce2adfef21e84888fa787e2b5de35",
+      "read": false,
+      "created_at": "2026-04-15T16:19:48.931Z"
+    },
+    {
+      "id": "95bc6fff9b554bcc104682b4b4b10490",
+      "user_id": "24ac07b5d56e154a5deecb419e17d1c1",
+      "user_type": "customer",
+      "title": "Service Completed",
+      "message": "Your AC service has been completed.",
+      "request_id": "ad8ce2adfef21e84888fa787e2b5de35",
+      "read": false,
+      "created_at": "2026-04-15T16:19:55.335Z"
+>>>>>>> d76b038337ba6a4d4bbfb647fb8302cdf03fe54a
     }
   ]
 }
